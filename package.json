@@ -1,0 +1,23 @@
+{
+  "name": "hisanatani",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SigmaEco/HiSanatani.git"
+  },
+  "author": "Subham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SigmaEco/HiSanatani/issues"
+  },
+  "homepage": "https://github.com/SigmaEco/HiSanatani#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

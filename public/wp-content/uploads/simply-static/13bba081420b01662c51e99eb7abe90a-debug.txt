@@ -1,0 +1,665 @@
+[2025-04-11 18:59:32] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-04-11 18:59:32] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2025-04-11 18:59:32] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-04-11 18:59:33] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-04-11 18:59:33] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-04-11 18:59:33] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-04-11 18:59:33] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972\
+[2025-04-11 18:59:33] [class-ss-setup-task.php:72] Adding origin URL to queue: http://hisanatani.local/
+[2025-04-11 18:59:33] [class-rank-math-integration.php:120] Adding sitemap URL to queue: http://hisanatani.local/sitemap_index.xml
+[2025-04-11 18:59:33] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-04-11 18:59:33] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-11 18:59:33] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-11 18:59:33] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2025-04-11 18:59:33] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/
+[2025-04-11 18:59:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2025-04-11 18:59:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 18:59:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966953d978-zFS6rd.tmp
+[2025-04-11 18:59:33] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/?simply_static_page=1
+[2025-04-11 18:59:33] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/?simply_static_page=1
+[2025-04-11 18:59:38] [class-ss-url-fetcher.php:103] Filesize: 35261 bytes
+[2025-04-11 18:59:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-11 18:59:38] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-04-11 18:59:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966953d978-zFS6rd.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/index.html
+[2025-04-11 18:59:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 18:59:39] [class-ss-fetch-urls-task.php:158] Adding 37 URLs to the queue
+[2025-04-11 18:59:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 18:59:39] [class-ss-page.php:119] Checking Content Identical:4c170f087a919d7a30c0eaf8ea879cbb2b40170a===. Value: FALSE
+[2025-04-11 18:59:39] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/sitemap_index.xml
+[2025-04-11 18:59:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2025-04-11 18:59:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 18:59:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f9669b7e722-RzTAbS.tmp
+[2025-04-11 18:59:39] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/sitemap_index.xml?simply_static_page=2
+[2025-04-11 18:59:39] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/sitemap_index.xml?simply_static_page=2
+[2025-04-11 19:00:09] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-04-11 19:00:09] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30015 milliseconds with 0 bytes received
+[2025-04-11 19:00:09] [class-ss-url-fetcher.php:107] object(WP_Error)#2152 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30015 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-04-11 19:00:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2025-04-11 19:00:09] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-11 19:00:10] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-11 19:00:10] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:69] Total pages: 38; Pages remaining: 36
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/img/cart-preloader.gif
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966ba152d4-OJUtLD.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/img/cart-preloader.gif?simply_static_page=3
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/img/cart-preloader.gif?simply_static_page=3
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 20410 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/img/cart-preloader.gif
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966ba152d4-OJUtLD.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/img/cart-preloader.gif
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:93115d582b9477708ee81ed9f146aae4bc65f42a===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-includes/js/jquery/jquery.min.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966ba2240d-7ycZLp.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=4
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=4
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 87555 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966ba2240d-7ycZLp.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-includes/js/jquery/jquery.min.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:f1283d45dc3e33b703b48c9a9d9495b3b49fd2a1===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966ba46493-aKFla9.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=5
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=5
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 13579 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966ba46493-aKFla9.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:2b3f380f212c8c64e79db1f47fa25c114afe6fbb===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/js/navigation.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966ba6303b-WqMcEV.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/js/navigation.js?simply_static_page=6
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/js/navigation.js?simply_static_page=6
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 6033 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/js/navigation.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966ba6303b-WqMcEV.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/js/navigation.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:4fb29f7a25f70c6aa4314bc8bd356471bd07fede===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/theme.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966ba72496-AHnDmT.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/theme.js?simply_static_page=7
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/theme.js?simply_static_page=7
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 11109 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/theme.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966ba72496-AHnDmT.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/theme.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:60a1f445ff2504fc06b9a3b0621a80bfb1ae0b18===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/jquery-ui.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966ba83304-6Ouxnn.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/jquery-ui.js?simply_static_page=8
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/jquery-ui.js?simply_static_page=8
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 472118 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/jquery-ui.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966ba83304-6Ouxnn.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/jquery-ui.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:7715e172ef97bff0e8deb0f1988025c1ab1ec859===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/popper.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966babf2d3-wNusV8.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/popper.js?simply_static_page=9
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/popper.js?simply_static_page=9
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 38244 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/popper.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966babf2d3-wNusV8.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/popper.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:1485b27da27efd2047dba7a7f3854d2fd655d889===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/bootstrap.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bad1b03-hH3MRV.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/bootstrap.js?simply_static_page=10
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/bootstrap.js?simply_static_page=10
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 108827 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/bootstrap.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bad1b03-hH3MRV.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/bootstrap.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:10] [class-ss-page.php:119] Checking Content Identical:4f98162c9493e1378c7d9f043cded5a761f223ea===. Value: FALSE
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/owl.carousel.js
+[2025-04-11 19:00:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 38
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bae986e-s15knk.tmp
+[2025-04-11 19:00:10] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/owl.carousel.js?simply_static_page=11
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/owl.carousel.js?simply_static_page=11
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:103] Filesize: 117346 bytes
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/owl.carousel.js
+[2025-04-11 19:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bae986e-s15knk.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/owl.carousel.js
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:f68a3f80b5624c882e9551cef6e0de758d35e4da===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/jquery.magnific-popup.js
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bb0b8bb-0VIeLR.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/jquery.magnific-popup.js?simply_static_page=12
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/jquery.magnific-popup.js?simply_static_page=12
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 37451 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/jquery.magnific-popup.js
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bb0b8bb-0VIeLR.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/jquery.magnific-popup.js
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:be1b95f57ba8e676625d0282cfbfb5632118c93c===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/wow.js
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bb1eae1-vHtUU2.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/wow.js?simply_static_page=13
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/wow.js?simply_static_page=13
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 18218 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/wow.js
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bb1eae1-vHtUU2.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/wow.js
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:62229f421d6ff0ee7f861a36d7d1e6a37366e8fd===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/select2.js
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bb2ed47-tEQRyI.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/select2.js?simply_static_page=14
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/select2.js?simply_static_page=14
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 169460 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/select2.js
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bb2ed47-tEQRyI.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/select2.js
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:99cd2ebae4dc450ec9f289f9a8bdf7cf1e4b7752===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/custom-slider.js
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bb4af50-wI2rWU.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/custom-slider.js?simply_static_page=15
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/custom-slider.js?simply_static_page=15
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 6421 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/custom-slider.js
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bb4af50-wI2rWU.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/custom-slider.js
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:95c5a6fd1f72926f2ddf524163bf8e869d33f464===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/custom.js
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bb58692-11IOQi.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/custom.js?simply_static_page=16
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/js/custom.js?simply_static_page=16
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 6985 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/js/custom.js
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bb58692-11IOQi.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/js/custom.js
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:a30c13c4f403f88a4512a332afc470996bd6f5e8===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/feed/
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://hisanatani.local/feed/
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/comments/feed/
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://hisanatani.local/comments/feed/
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-includes/css/dist/block-library/style.min.css
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bb6ce0a-qu2GTL.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=19
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=19
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 114716 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bb6ce0a-qu2GTL.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-includes/css/dist/block-library/style.min.css
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:ffc6c3d65b95ef374c46aea6d398829879a1ff8f===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-includes/css/dashicons.min.css
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bb8aad3-AGyr81.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-includes/css/dashicons.min.css?simply_static_page=20
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-includes/css/dashicons.min.css?simply_static_page=20
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 59017 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dashicons.min.css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bb8aad3-AGyr81.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-includes/css/dashicons.min.css
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:ad159ac686efcdd0f4826b0df920cf4996fd1db4===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/bootstrap.css
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bbccc0d-hDrwMP.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/bootstrap.css?simply_static_page=21
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/bootstrap.css?simply_static_page=21
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 193918 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/bootstrap.css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bbccc0d-hDrwMP.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/bootstrap.css
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:11] [class-ss-page.php:119] Checking Content Identical:39465b69abbda3cc71c835f05b3d34e56d7f8025===. Value: FALSE
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/animate.css
+[2025-04-11 19:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 38
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bbeb3e6-ZTv5Ef.tmp
+[2025-04-11 19:00:11] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/animate.css?simply_static_page=22
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/animate.css?simply_static_page=22
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:103] Filesize: 59835 bytes
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/animate.css
+[2025-04-11 19:00:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bbeb3e6-ZTv5Ef.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/animate.css
+[2025-04-11 19:00:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:f59ac191cc22f7dfb8b932746aae8082423bb9f9===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/header.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc15dd7-ee2wvY.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/header.css?simply_static_page=23
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/header.css?simply_static_page=23
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 21279 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/header.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc15dd7-ee2wvY.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/header.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:e336221c5c662e0c6505dc14ca1631e517e4d6ae===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/magnific-popup.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc31218-5lPKPD.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/magnific-popup.css?simply_static_page=24
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/magnific-popup.css?simply_static_page=24
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 7300 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/magnific-popup.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc31218-5lPKPD.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/magnific-popup.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:6da40ea6767642ba1fea84c8d45409c14d2aac7d===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.carousel.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc3e980-Mr9vxw.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.carousel.css?simply_static_page=25
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.carousel.css?simply_static_page=25
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 4967 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/owl.carousel.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc3e980-Mr9vxw.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/owl.carousel.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:1bb3f5cfa82326b3389df4a1f52d21aea39c3e38===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.theme.default.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc5369b-tXHmLu.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.theme.default.css?simply_static_page=26
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.theme.default.css?simply_static_page=26
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 1201 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/owl.theme.default.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc5369b-tXHmLu.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/owl.theme.default.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:b338a92de0ef45934a8e87bb86c60aedd79e1a9a===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/font-awesome.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc60932-Mzb5Bp.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/font-awesome.css?simply_static_page=27
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/font-awesome.css?simply_static_page=27
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 41649 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/font-awesome.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc60932-Mzb5Bp.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/font-awesome.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:cfe366c340134844ee46471dfeb9402bd365d019===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/responsive.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc84317-SlsQnA.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/responsive.css?simply_static_page=28
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/responsive.css?simply_static_page=28
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 1786 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/responsive.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc84317-SlsQnA.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/responsive.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:daa0dc4cb4deaf63ba524cbd5d7706ca1d7d8683===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/skin-2.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc91eaf-S2bdZ9.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/skin-2.css?simply_static_page=29
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/skin-2.css?simply_static_page=29
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 2809 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/skin-2.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc91eaf-S2bdZ9.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/skin-2.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:889f0fa7d6e8ac16762aea96786e9e36c5f7903a===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/select2.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bc9f278-aPMbWk.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/select2.css?simply_static_page=30
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/select2.css?simply_static_page=30
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 17856 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/select2.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bc9f278-aPMbWk.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/select2.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:09afae90ec37cdb4b1ba13f86bc62c067a938dbd===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/home7style.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bcbb130-hvTffw.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/home7style.css?simply_static_page=31
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/home7style.css?simply_static_page=31
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 77675 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/home7style.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bcbb130-hvTffw.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/home7style.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:12] [class-ss-page.php:119] Checking Content Identical:8c922779ea69bd8bf6e1c20e318ebbabb8ca5436===. Value: FALSE
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/front-style.css
+[2025-04-11 19:00:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 38
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bcd76e5-GbuYi7.tmp
+[2025-04-11 19:00:12] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/front-style.css?simply_static_page=32
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/front-style.css?simply_static_page=32
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:103] Filesize: 239523 bytes
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/front-style.css
+[2025-04-11 19:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bcd76e5-GbuYi7.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/front-style.css
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:12] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:13] [class-ss-page.php:119] Checking Content Identical:079630df4ed7db5da53b0354ce821e35a7f165cb===. Value: FALSE
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/religion-elementor-custom.css
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 38
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bd0781b-brrwrh.tmp
+[2025-04-11 19:00:13] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/religion-elementor-custom.css?simply_static_page=33
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/religion-elementor-custom.css?simply_static_page=33
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:103] Filesize: 24660 bytes
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/religion-elementor-custom.css
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bd0781b-brrwrh.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/religion-elementor-custom.css
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:13] [class-ss-page.php:119] Checking Content Identical:3264938eb41e3f2c09ec1a48d66bf12066a74b20===. Value: FALSE
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/religion-elementor-woocommerce.css
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 38
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bd25a99-Z3dC2B.tmp
+[2025-04-11 19:00:13] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/religion-elementor-woocommerce.css?simply_static_page=34
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/religion-elementor-woocommerce.css?simply_static_page=34
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:103] Filesize: 8417 bytes
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/css/religion-elementor-woocommerce.css
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bd25a99-Z3dC2B.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/css/religion-elementor-woocommerce.css
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:13] [class-ss-page.php:119] Checking Content Identical:93252571d82f621c7c5fd0d0a256fbac102030f1===. Value: FALSE
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/style.css
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 38
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bd4006b-xAMLue.tmp
+[2025-04-11 19:00:13] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/style.css?simply_static_page=35
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/style.css?simply_static_page=35
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:103] Filesize: 32655 bytes
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/style.css
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bd4006b-xAMLue.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/style.css
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:13] [class-ss-page.php:119] Checking Content Identical:2c56ce1ff76d0d1fc81b00651999c8a0d0a1806f===. Value: FALSE
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-json/
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 38
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://hisanatani.local/wp-json/
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/xmlrpc.php
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 38
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://hisanatani.local/xmlrpc.php
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/img/ribbon.jpg
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 38
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bd667f5-cXkqgg.tmp
+[2025-04-11 19:00:13] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/img/ribbon.jpg?simply_static_page=38
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/img/ribbon.jpg?simply_static_page=38
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:103] Filesize: 35252 bytes
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/img/ribbon.jpg
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bd667f5-cXkqgg.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/img/ribbon.jpg
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:13] [class-ss-page.php:119] Checking Content Identical:4c498edf1e012bb91c864ea3da4fffbe3382d7f0===. Value: FALSE
+[2025-04-11 19:00:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 38 pages/files
+[2025-04-11 19:00:13] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-11 19:00:13] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-11 19:00:13] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:69] Total pages: 48; Pages remaining: 10
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-includes/fonts/dashicons.eot
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 48
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bd776a6-kO4YVB.tmp
+[2025-04-11 19:00:13] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-includes/fonts/dashicons.eot?simply_static_page=39
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-includes/fonts/dashicons.eot?simply_static_page=39
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:103] Filesize: 56564 bytes
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.eot
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bd776a6-kO4YVB.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-includes/fonts/dashicons.eot
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:13] [class-ss-page.php:119] Checking Content Identical:f90206d72a97c26bb9618d7d7e0d10ddfd652291===. Value: FALSE
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-includes/fonts/dashicons.ttf
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 48
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bd866dc-rdBgiB.tmp
+[2025-04-11 19:00:13] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-includes/fonts/dashicons.ttf?simply_static_page=40
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-includes/fonts/dashicons.ttf?simply_static_page=40
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:103] Filesize: 56392 bytes
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.ttf
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966bd866dc-rdBgiB.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-includes/fonts/dashicons.ttf
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:13] [class-ss-page.php:119] Checking Content Identical:540fe646c1727587dc8f9c94b676b5e4a2fceea7===. Value: FALSE
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.video.play.png
+[2025-04-11 19:00:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 48
+[2025-04-11 19:00:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966bd94cb7-goI3Oc.tmp
+[2025-04-11 19:00:13] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.video.play.png?simply_static_page=41
+[2025-04-11 19:00:13] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/owl.video.play.png?simply_static_page=41
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30006 milliseconds with 0 bytes received
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:107] object(WP_Error)#2100 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30006 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.eot
+[2025-04-11 19:00:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 48
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966db9c845-PHW1u6.tmp
+[2025-04-11 19:00:43] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.eot?simply_static_page=42
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.eot?simply_static_page=42
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:103] Filesize: 165742 bytes
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.eot
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966db9c845-PHW1u6.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.eot
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:43] [class-ss-page.php:119] Checking Content Identical:d980c2ce873dc43af460d4d572d441304499f400===. Value: FALSE
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff2
+[2025-04-11 19:00:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 48
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966dbaf43f-Bsgmy1.tmp
+[2025-04-11 19:00:43] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff2?simply_static_page=43
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff2?simply_static_page=43
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:103] Filesize: 77160 bytes
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff2
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966dbaf43f-Bsgmy1.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff2
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:43] [class-ss-page.php:119] Checking Content Identical:d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c===. Value: FALSE
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff
+[2025-04-11 19:00:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 48
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966dbb9b67-jhcqzJ.tmp
+[2025-04-11 19:00:43] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff?simply_static_page=44
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff?simply_static_page=44
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:103] Filesize: 98024 bytes
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966dbb9b67-jhcqzJ.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.woff
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:43] [class-ss-page.php:119] Checking Content Identical:28b782240b3e76db824e12c02754a9731a167527===. Value: FALSE
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.ttf
+[2025-04-11 19:00:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 48
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966dbc81f9-xyelgY.tmp
+[2025-04-11 19:00:43] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.ttf?simply_static_page=45
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.ttf?simply_static_page=45
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:103] Filesize: 165548 bytes
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.ttf
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966dbc81f9-xyelgY.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.ttf
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:43] [class-ss-page.php:119] Checking Content Identical:13b1eab65a983c7a73bc7997c479d66943f7c6cb===. Value: FALSE
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.svg
+[2025-04-11 19:00:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 48
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966dbd7360-Sn0IIC.tmp
+[2025-04-11 19:00:43] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.svg?simply_static_page=46
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.svg?simply_static_page=46
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:103] Filesize: 447050 bytes
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.svg
+[2025-04-11 19:00:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67f966dbd7360-Sn0IIC.tmp to C:\Users\nandi\Local Sites\hisanatani\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1744397972/wp-content/themes/religion-elementor/assets/fonts/fontawesome-webfont.svg
+[2025-04-11 19:00:43] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-11 19:00:44] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-11 19:00:44] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-11 19:00:44] [class-ss-page.php:119] Checking Content Identical:b5483b11f8ba213e733b5b8af9927a04fec996f6===. Value: FALSE
+[2025-04-11 19:00:44] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/images/Spinner.gif
+[2025-04-11 19:00:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 48
+[2025-04-11 19:00:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:00:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966dc241fe-ksKKgk.tmp
+[2025-04-11 19:00:44] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/images/Spinner.gif?simply_static_page=47
+[2025-04-11 19:00:44] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/images/Spinner.gif?simply_static_page=47
+[2025-04-11 19:00:44] [class-ss-url-fetcher.php:103] Filesize: 35079 bytes
+[2025-04-11 19:00:44] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-04-11 19:00:44] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-04-11 19:00:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966dcad00e-U9sRks.tmp
+[2025-04-11 19:00:44] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/images/Spinner.gif
+[2025-04-11 19:01:14] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-04-11 19:01:14] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received
+[2025-04-11 19:01:14] [class-ss-url-fetcher.php:107] object(WP_Error)#2091 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-04-11 19:01:14] [class-ss-fetch-urls-task.php:72] URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/image/founder.png
+[2025-04-11 19:01:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 48
+[2025-04-11 19:01:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-11 19:01:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966fab50b7-ISCNm9.tmp
+[2025-04-11 19:01:14] [class-ss-page-handler.php:38] URL Prepared:http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/image/founder.png?simply_static_page=48
+[2025-04-11 19:01:14] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/image/founder.png?simply_static_page=48
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:103] Filesize: 35079 bytes
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67f966fc5354e-r4PWeA.tmp
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:251] Fetching URL: http://hisanatani.local/wp-content/themes/religion-elementor/assets/css/image/founder.png
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:103] Filesize: 35079 bytes
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-04-11 19:01:16] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-04-11 19:01:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 38 of 48 pages/files
+[2025-04-11 19:01:16] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-11 19:01:24] [class-ss-fetch-urls-task.php:69] Total pages: 48; Pages remaining: 0
+[2025-04-11 19:01:24] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 48 of 48 pages/files
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2025-04-11 19:01:24] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2025-04-11 19:01:24] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2025-04-11 19:01:24] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://hisanatani.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1744397972.zip">Click here to download</a>
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-04-11 19:01:24] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-04-11 19:01:24] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-04-11 19:01:24] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:01:52
