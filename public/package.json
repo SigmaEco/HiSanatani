@@ -1,0 +1,13 @@
+{
+  "name": "hisanatani",
+  "version": "1.0.0",
+  "description": "HiSanatani - A unique Node.js-based project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Build script running!'"
+  },
+  "author": "Subham",
+  "license": "MIT",
+  "dependencies": {}
+}
